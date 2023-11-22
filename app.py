@@ -1,7 +1,9 @@
-import streamlit as st
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 import plotly.express as px
-
+import streamlit as st
 df = pd.read_csv('vehicles_us.csv')
 
 st.header("Car Advertisement Data Analysis")
